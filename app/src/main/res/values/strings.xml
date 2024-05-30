@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Calculator App</string>
+    <string name="calc_text">12345</string>
+    <string name="four">4</string>
+</resources>
