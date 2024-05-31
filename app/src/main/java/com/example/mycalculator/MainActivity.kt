@@ -40,9 +40,12 @@ class MainActivity : AppCompatActivity() {
 
     fun onDecimalPoint(view:View){
         if(lastNumeric && !lastDot){
+            val checkDot = tvInput?.text?.contains(".")
+            if(!checkDot!!){
             tvInput?.append(".")
             lastNumeric = false
             lastDot = true
+            }
         }
     }
 
